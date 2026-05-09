@@ -18,9 +18,9 @@ export default function Navbar() {
 
         {/* Links & Cart */}
         <div className="flex items-center gap-6">
-          <Link href="/" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">
+          {/* <Link href="/" className="text-slate-600 hover:text-blue-600 font-medium transition-colors">
             Home
-          </Link>
+          </Link> */}
           
           {/* Cart Icon & Count */}
           <div className="flex items-center gap-2 bg-slate-100 px-4 py-2 rounded-full shadow-inner">
