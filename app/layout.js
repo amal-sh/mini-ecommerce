@@ -4,8 +4,8 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 
 export const metadata = {
-  title: "Voxen E-Commerce Assessment",
-  description: "Mini E-Commerce Product Listing Application",
+  title: "AeroCart | Premium Drone Store",
+  description: "Premium Drone Store",
 };
 
 export default function RootLayout({ children }) {
