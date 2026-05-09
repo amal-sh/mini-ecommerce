@@ -58,7 +58,7 @@ export default function Home() {
                 {product.name}
               </h2>
               <p className="text-xl font-bold text-blue-600 mb-4">
-                ${product.price.toFixed(2)}
+                ₹{product.price.toFixed(2)}
               </p>
               
               {/* Push button to bottom */}

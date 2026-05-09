@@ -13,7 +13,7 @@ export default function Navbar() {
         
         {/* Placeholder Logo */}
         <Link href="/" className="text-2xl font-black text-slate-800 tracking-tight">
-          VOXEN<span className="text-blue-600">CART</span>
+          AERO<span className="text-blue-600">CART</span>
         </Link>
 
         {/* Links & Cart */}

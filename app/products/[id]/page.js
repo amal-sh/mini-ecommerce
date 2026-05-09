@@ -68,16 +68,14 @@ export default function ProductDetails({ params }) {
 
         {/* Right Side: Product Details */}
         <div className="md:w-1/2 p-8 flex flex-col justify-center">
-          <Link href="/" className="text-slate-500 hover:text-blue-600 text-sm mb-6 inline-block transition-colors">
-            &larr; Back to Products
-          </Link>
+         
 
           <h1 className="text-3xl font-extrabold text-slate-900 mb-4">
             {product.name}
           </h1>
           
           <p className="text-3xl font-bold text-blue-600 mb-6">
-            ${product.price.toFixed(2)}
+            ₹{product.price.toFixed(2)}
           </p>
           
           <p className="text-slate-600 text-lg leading-relaxed mb-8">
